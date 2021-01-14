@@ -1,12 +1,14 @@
 ## ES7
+```js
 const arr = [1, 2, 3];
   arr.includes(2); // true
 
   let a = 3;
       a**3;  // 27
       a**=3; // 27  a === 27
-
+```
 ## ES8
+```js
 const func = async () => {
     let n = await one(); 
     let m = await two(); 
@@ -49,8 +51,9 @@ const obj = { 10: 'xxx', 1: 'yyy', 3: 'zzz' };
 'es8'.padEnd(7, '6');       // 'es86666'
 
 //旧 [1, 2] => 新 [1, 2,] 在数组和对象中可使用结尾逗号  利于开发
-
+```
 ## ES9
+```js
 async function example() {
   // 普通迭代器:
   const iterator = createNumberIterator();
@@ -101,6 +104,5 @@ promise
   .then(result => {···})
   .catch(error => {···})
   .finally(() => {···});   //总是会运行
-	
-	
+```
 
